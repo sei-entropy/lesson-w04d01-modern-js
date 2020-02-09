@@ -126,7 +126,7 @@ function divide(num1, num2) {
 }
 
 function whoIsTheBestStudent() {
-  const studentName = 'Noura';
+  const studentName = 'Haya';
   console.log(studentName);
 }
 ```
@@ -188,7 +188,7 @@ Lastly, the `forEach` method always returns the value `undefined`.
 #### Example 1: Using forEach
 
 ```js
-const instructors = ['Usman', 'Reem', 'Hazim', 'Mansour'];
+const instructors = ['Usman', 'Mohammad', 'Hisham', 'Sager'];
 
 // Print each instructor
 instructors.forEach(function(element) {
@@ -205,7 +205,7 @@ instructors.forEach(function(element, index) {
 #### Example 2: Converting a for-loop to forEach
 
 ```js
-const instructors = ['Usman', 'Reem', 'Hazim', 'Mansour'];
+const instructors = ['Usman', 'Mohammad', 'Hisham', 'Sager'];
 const instructorsCopy = [];
 
 // For Loop
@@ -223,7 +223,7 @@ instructors.forEach(function(item){
 
 1. Say Hi
     ```js
-    const friends = ["Aisha", "Abdulrahman", "Sumayah"];
+    const friends = ["Abdulhamid", "Amirah", "Roba"];
 
     // For each friend in friends, print "Hi friendName!"
     // Write your solution here
@@ -277,7 +277,7 @@ The `map()` method creates a new array with the results of calling a provided fu
     Capitalize all the strings in the IA's array and store them in the array capitalizedIA.
 
     ```js
-    const iAS = ['alanoud', 'reem', 'hazim', 'mansour'];
+    const iAS = ['sager', 'hisham'];
     let capitalizedIAs = [];
 
     // Write your solution here
@@ -288,7 +288,7 @@ The `map()` method creates a new array with the results of calling a provided fu
 
     let dayAbbreviations = [];
 
-    // Find the abbreviation of all days and add them to dayAbbreviations array
+    // Find the abbreviation of all days and add them to dayAbbreviations Array
     // Write your solution here
     ```
 4. century20
@@ -326,7 +326,7 @@ The `filter()` method creates a new array with all elements that pass the test i
     2. Use Arrow function
     3. Use implicit return
     ```js
-    const names = ["Lamees", "Nawal", "Mesfer"];
+    const names = ['Bader', 'Ali', 'Afnan'];
     // Write your solution here
     console.log(result);
     ```
